@@ -1,0 +1,99 @@
+.wrapper{
+  
+}
+header{
+  text-align: center;
+  font-size:50px;
+  padding:40px 0px;
+}
+
+.start{
+  padding: 0px;
+}
+.startbtn{
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  width:250px;
+  font-size: 28px;
+}
+
+.content{
+  text-align: center;
+  font-size: 40px;
+}
+
+.ebibtn,.kanibtn{
+  height: 250px;
+  width:250px;
+  border-radius:50% ;
+  display: block;
+  margin: 50px 20px;
+  outline: none;
+  box-shadow: 0px 5px 0px rgba(000,000,000,0.3);
+}
+
+.ebibtn:active,.kanibtn:active{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px  rgba(000,000,000,0.3);/*影を小さく*/
+  border-bottom: none;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+
+img{
+  height: 160px;
+  widows: auto;
+  object-fit: cover;
+  border-radius:60% ;
+  outline: none;
+}
+
+.result.ok{
+  text-align: center;
+  color: red;
+  margin:30px 0px;
+  font-size: 40px;
+  height: 55px;
+}
+
+.result.ng{
+  background-color: rgb(192, 192, 192);
+  position: absolute;
+  height: 60vh;
+  width:70vw;
+  top:50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  
+}
+
+.ngtitle{
+  color: blue;
+  text-align: center;
+  padding:40px;
+  font-size: 50px;
+}
+
+.total{
+  text-align: center;
+  font-size: 50px;
+}
+
+.back {
+  position: absolute;
+  display: block;
+  margin:0 auto;
+  height: 40px;
+  width:200px;
+  bottom:10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
